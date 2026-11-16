@@ -2,6 +2,10 @@
 
 API REST para administrar productos con Express, Firestore y autenticación JWT.
 
+API publicada: [entrega-final-node-ebon.vercel.app](https://entrega-final-node-ebon.vercel.app).
+
+Consultar el catálogo: [GET /api/products](https://entrega-final-node-ebon.vercel.app/api/products).
+
 ## Ejecución local
 
 Requiere Node.js 22 y un proyecto de Firebase con Firestore y Authentication.
@@ -9,12 +13,11 @@ Requiere Node.js 22 y un proyecto de Firebase con Firestore y Authentication.
 ```sh
 npm install
 cp .env.example .env
-npm run start
 ```
 
 Completar `.env` con la configuración de la aplicación web de Firebase,
 un `JWT_SECRET` de al menos 32 caracteres y el UID del administrador en `ADMIN_UIDS`.
-El servidor se inicia en `http://localhost:3000`.
+Luego ejecutar `npm run start`. El servidor se inicia en `http://localhost:3000`.
 
 ## Rutas
 
