@@ -1,0 +1,26 @@
+{
+  "name": "entrega-final-node",
+  "version": "1.0.0",
+  "description": "Proyecto final de Node.js: API de productos con Express, Firestore y JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "body-parser": "^2.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "firebase": "^13.3.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.7"
+  }
+}
